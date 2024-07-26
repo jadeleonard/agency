@@ -15,7 +15,7 @@ export const  Div = (props: DivProps): HTMLDivElement => {
     if (props.role) div.setAttribute('role', props.role);
     if (props.ariaLabel) div.setAttribute('aria-label', props.ariaLabel);
     if (props.children) {
-        props.children.forEach(child => div.appendChild(child));
+        props.children.forEach(child => div.appendChild(child);
     }
 
 

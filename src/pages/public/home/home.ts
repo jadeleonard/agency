@@ -1,5 +1,5 @@
-
-import {Button} from "../../components/default-components/button";
+import './home.css'
+import {Button} from "../../../components/default-components/button";
 
 export const Home = ():HTMLDivElement =>{
     const Home = document.createElement('div') as HTMLDivElement

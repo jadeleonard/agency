@@ -16,7 +16,7 @@ export const  Section = (props: SectionProps): HTMLElement => {
     if (props.role) section.setAttribute('role', props.role);
     if (props.ariaLabel) section.setAttribute('aria-label', props.ariaLabel);
     if (props.children) props.children.forEach(child => section.appendChild(child));
-
+    
     return section;
 }
 

@@ -11,7 +11,7 @@ interface InputProps {
     onChange?: (event: Event) => void;
 }
 
-export const createInput = (props: InputProps): HTMLInputElement => {
+export const Input = (props: InputProps): HTMLInputElement => {
     const input = document.createElement('input');
 
     if (props.id) input.id = props.id;
