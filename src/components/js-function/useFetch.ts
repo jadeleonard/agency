@@ -3,6 +3,7 @@ interface props{
     links:string
     list:string
 }
+
 const GetNavbar = async ():Promise<props[] | null>=> {
     try {
         const response = await fetch(apiNavbar);
