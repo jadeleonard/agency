@@ -9,7 +9,9 @@ export const Home = ():HTMLDivElement =>{
 
 
 
-
+    const title = Button({
+        textContent:'Button'
+    })
 
     return Home
 }
