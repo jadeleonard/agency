@@ -7,7 +7,7 @@ const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
 
 
-const Navigo = require('navigo')
+
 
 const dotenv = require('dotenv')
 
@@ -37,7 +37,6 @@ const config = {
 
         new MiniCssExtractPlugin(),
 
-        new Navigo()
 
 
 
