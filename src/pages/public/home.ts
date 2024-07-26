@@ -12,6 +12,6 @@ export const Home = ():HTMLDivElement =>{
     const title = Button({
         textContent:'Button'
     })
-
+    Home.appendChild(title)
     return Home
 }
