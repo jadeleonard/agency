@@ -11,7 +11,7 @@ async function Submit(props:props):Promise<any>{
 
 
         try {
-            const response  = await fetch('',{
+            const response  = await fetch('http://localhost:3000/sign-up',{
                 method:'POST',
                 headers:{
                     'Application-Type':'application/json'

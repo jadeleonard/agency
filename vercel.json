@@ -1,0 +1,7 @@
+{
+    "redirects":[
+            {"source":"./src/pages/home.ts","destination":"/"},
+            {"source":"./src/pages/services/services.ts","destination":"/https://agency-git-main-lukabartos-projects.vercel.app/services"}
+    ],
+    "outputDirectory": "dist"
+}
