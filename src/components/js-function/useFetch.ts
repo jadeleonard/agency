@@ -1,4 +1,4 @@
-const apiNavbar = process.env.API_PUBLIC_NAVBAR_CONTENT;
+const apiNavbar = process.env.API_PUBLIC_NAVBAR_CONTENT as string
 interface props{
     links:string
     list:string
