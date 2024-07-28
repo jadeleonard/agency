@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 14px;
+    background: white;
+
+    
+
+
+
+}
+.orderList{
+    list-style-type: none;
+    font-size: small;
+    display: inline-flex;
+    gap: 10px;
+    color: white;
+}
+
+
+a{
+    color:black;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    
+}
+a:hover{
+    background: black;
+    color: white;
+
+}
+

@@ -4,7 +4,11 @@ interface props{
     list:string
 }
 
-const GetNavbar = async ():Promise<props[] | null>=> {
+
+
+
+
+async function GetNavbar(){
     try {
         const response = await fetch(apiNavbar);
         if (response.ok) {

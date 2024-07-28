@@ -1,7 +1,7 @@
 interface UlProps{
     className?:string
     id?:string
-    children?:HTMLElement[]
+    children?:HTMLElement[] | Text[]
     
 }
 
@@ -12,9 +12,7 @@ const Ul = (props:UlProps) =>{
     
     if(props.className) ul.className = props.className
     if(props.id) ul.id = props.id
-    props.children.forEach(child =>{
-        ul.appendChild(child)
-    })
+   
 }
 
 

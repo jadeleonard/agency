@@ -1,5 +1,5 @@
 import './home.css'
-import {Button} from "../../../components/default-components/button";
+import navbar from  '../../../components/navbar'
 
 export const Home = ():HTMLDivElement =>{
     const Home = document.createElement('div') as HTMLDivElement
@@ -8,10 +8,7 @@ export const Home = ():HTMLDivElement =>{
 
 
 
-
-    const title = Button({
-        textContent:'Button'
-    })
-    Home.appendChild(title)
+    Home.appendChild(navbar)
+ 
     return Home
 }

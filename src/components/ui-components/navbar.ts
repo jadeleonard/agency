@@ -6,21 +6,11 @@ interface props{
     list:string
 }
 
+ const nav = document.createElement('nav')
 
-const Navbar = () =>{
-    const nav = document.createElement('nav')
-
-   async function Get(){
-        const navbarData =GetNavbar()
-
-       if(navbarData){
-           navbarData.forEach((item:props) =>{
-
-           })
-       }
+    if(nav){
+        
     }
 
 
 
-
-}

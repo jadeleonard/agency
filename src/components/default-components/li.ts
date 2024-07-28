@@ -1,7 +1,7 @@
 interface LiProps {
     className?:string
     id?:string
-    textContent:string
+    textContent?:string
 }
 
 
