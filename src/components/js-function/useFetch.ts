@@ -22,5 +22,22 @@ async function GetNavbar(){
         return null;
     }
 };
-
-export default GetNavbar;
+const apiHero = process.env.PUBLIC_HERO_CONTENT_DEFAULT as string
+async function GetHero(){
+    try {
+        const response = await fetch(apiHero,{
+            method:'GET',
+            headers:{
+                'Appication-Type':'application/json'
+            }
+        })
+        if(response){
+            const data = response.json()
+            return data
+        }
+    } catch (error) {
+        console.log(error)
+        return null
+    }
+}
+export{GetNavbar,GetHero}
